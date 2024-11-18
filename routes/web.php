@@ -3,8 +3,13 @@
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
+
 Route::get('/', function () {
     return view('welcome');
+})->name('home');
+
+Route::get('/history', function () {
+    return view('history');
 });
 
 Route::get('/dashboard', function () {

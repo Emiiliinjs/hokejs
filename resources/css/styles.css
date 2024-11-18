@@ -1,0 +1,105 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #003366, #00509e);
+    color: #fff;
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Navbar Styling */
+.navbar {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.85); /* Slight transparency */
+    padding: 10px 20px; /* Add some padding */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #ffa500 !important; /* Bright orange to match the theme */
+}
+
+.navbar-nav .nav-link {
+    color: #fff !important;
+    font-weight: 500;
+    margin: 0 10px;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffa500 !important; /* Hover effect */
+}
+
+.navbar-nav .btn-link {
+    color: #fff !important;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 120px 20px 50px; /* Adjusted for navbar height */
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.btn-primary {
+    background-color: #ffa500;
+    border-color: #ffa500;
+}
+
+.hero img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    box-shadow: none; /* Removed shadow */
+}
+
+/* History-Specific Styling */
+.history-header {
+    text-align: center;
+    padding: 60px 20px;
+    margin-top: 100px; /* Adjusted for fixed navbar */
+}
+
+.history-header h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.history-section {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.history-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.history-section p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
