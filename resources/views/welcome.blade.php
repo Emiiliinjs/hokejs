@@ -81,6 +81,9 @@
                     <li class="nav-item">
                         <a href="{{ url('/history') }}" class="nav-link">History</a>
                     </li>
+                    <li class="nav-item">
+                        <a href="{{ url('/history') }}" class="nav-link">Games</a>
+                    </li>
                 </ul>
                 <ul class="navbar-nav ms-auto">
                     @auth
