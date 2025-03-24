@@ -113,7 +113,7 @@
 
     <div class="row mt-5">
         <!-- Upcoming Games Section -->
-        <div class="col-md-6">
+        <div class="history-header">
             <h3>Upcoming Games</h3>
             <ul class="list-group">
                 <li class="list-group-item">
@@ -132,7 +132,7 @@
         </div>
 
         <!-- Recent Scores Section -->
-        <div class="col-md-6">
+        <div class="history-header">
             <h3>Recent Scores</h3>
             <ul class="list-group">
                 <li class="list-group-item">
